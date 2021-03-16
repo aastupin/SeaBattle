@@ -185,7 +185,7 @@ class Player {
          return ShotStatus.kill;
       }
       return ShotStatus.hit;
-   }
+   } 
 
    func getMaxElementIndeces(arr:[[Int]])->(Int,Int){    
       let flatArr = arr.flatMap{$0};
