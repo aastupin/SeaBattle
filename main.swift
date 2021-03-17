@@ -2,7 +2,7 @@
 let arguments = CommandLine.arguments;
 var player1type = PlayerTypes.human;
 var player1name:String = "Player";
-if (arguments.count > 1 && arguments[1]=="-AI"){
+if (arguments.count > 1 && arguments.contains("-AI")){
     player1type = PlayerTypes.AI;
     player1name = "AI2";
 }
