@@ -195,7 +195,7 @@ class Player {
          if (value == maxValue){
             availiableHits.append(index);
          }
-      } 
+      }
       //let index = flatArr.firstIndex(of: maxValue);
       let index = availiableHits.randomElement();
       return (index! % map_size, Int(index!/map_size));
